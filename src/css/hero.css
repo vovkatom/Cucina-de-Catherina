@@ -67,6 +67,8 @@
 }
 
 .social-svg-icon {
+  height: 24px;
+  width: 24px;
   fill: #f3f3f3;
 }
 
@@ -202,6 +204,10 @@
   stroke: var(--Genoa, #f3f3f3);
 }
 
+.hero-list-line {
+  display: none;
+}
+
 @media screen and (max-width: 414px) {
   .hero-img-ketchup {
     right: 0px;
@@ -281,10 +287,11 @@
 
 @media screen and (min-width: 1020px) {
   .hero {
+    
     /* padding-top: 100px; */
     background-image: url(../images/hero/ketchup-tab.png);
     background-repeat: no-repeat;
-    background-position: top + 72px right;
+    background-position: top +72px right;
     height: 100%;
   }
 
@@ -390,4 +397,102 @@
     stroke-width: 1px;
     stroke: var(--Genoa, #f3f3f3);
   }
+
+  .social-list {
+    gap: 40px;
+
+    padding-top: 74px;
+  }
+
+  .hero-list-line {
+    display: flex;
+    text-align: center;
+  }
+  
+  .hero-img-line1 {
+    position: absolute;
+    top: 150px;
+    right: 160px;
+  }
+
+  .hero-elips-line1 {
+    position: absolute;
+    top: 150px;
+    right: 380px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line1 {
+    position: absolute; 
+    top: 130px; 
+    right: 236px;
+  }
+
+  .hero-img-line2 {
+    position: absolute;
+    top: 330px;
+    right: 140px;
+  }
+
+  .hero-elips-line2 {
+    position: absolute;
+    top: 330px;
+    right: 380px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line2 {
+    position: absolute; 
+    top: 310px; 
+    right: 260px;
+  }
+
+  .hero-img-line3 {
+    position: absolute;
+    top: 446px;
+    right: 200px;
+  }
+
+  .hero-elips-line3 {
+    position: absolute;
+    top: 514px;
+    right: 430px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line3 {
+    position: absolute; 
+    top: 500px; 
+    right: 324px;
+  }
+
+  .hero-img-line4 {
+    position: absolute;
+    top: 586px;
+    right: 200px;
+  }
+
+  .hero-elips-line4 {
+    position: absolute;
+    top: 686px;
+    right: 430px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line4 {
+    position: absolute; 
+    top: 670px; 
+    right: 324px;
+  }
+  
+  
+  
+  
+  
+  
+  
 }
