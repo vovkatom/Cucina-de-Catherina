@@ -12,12 +12,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  padding-left: 12px;
 }
 
 .hero-text {
   width: 200px;
   color: #fff;
 
+  
   padding-top: 16px;
   font-family: Montserrat;
   font-size: 16px;
@@ -28,6 +30,7 @@
 }
 
 .hero-text-coma {
+  
   color: #fff;
   font-family: Montserrat;
   font-size: 16px;
@@ -38,6 +41,7 @@
 }
 
 .hero-text-love {
+  
   color: var(--Main-color-red, #bc1a1a);
 
   font-family: Montserrat;
@@ -48,6 +52,7 @@
 }
 
 .hero-bord {
+  
   flex-shrink: 0;
   stroke-width: 1px;
   stroke: var(--Genoa, #f3f3f3);
@@ -67,7 +72,7 @@
   height: 177px;
   /* transform: rotate(-8.757deg); */
   flex-shrink: 0;
-  /* opacity: 0.2; */
+  opacity: 0.2;
 }
 
 .hero-img-ketchup {
@@ -133,6 +138,7 @@
 }
 
 .hero-buttom {
+  
   color: var(--Genoa, #f3f3f3);
 
   font-family: Montserrat;
@@ -146,14 +152,15 @@
   padding: 26px 116px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
+  /* gap: 10px; */
+  /* flex-shrink: 0; */
   border-radius: 16px;
   background-color: #bc1a1a33;
 }
 
 .hero-ingridient {
-  width: 384px;
+  
+  /* width: 384px; */
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -208,7 +215,7 @@
   }
 
   .hero-buttom {
-    width: 290px;
+    width: 100%;
     padding: 26px 86px;
   }
 
