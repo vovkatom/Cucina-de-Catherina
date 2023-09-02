@@ -51,11 +51,11 @@ img {
   animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
   min-width: 320px;
-  max-width: 375px;
+  max-width: 415px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 .redline {
@@ -70,16 +70,16 @@ img {
   outline: 2px solid black;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1020px) {
   .container {
     max-width: 768px;
-    padding: 0 32px;
+    padding: 0 47px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 1440px;
-    padding: 0 60px;
+    padding: 0 85px;
   }
 }

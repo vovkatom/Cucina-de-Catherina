@@ -8,31 +8,23 @@
 /* @import url('./burger-menu.css'); */
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto.ttf') format('truetype');
-  font-display: swap;
-
-  font-family: 'PlayfairDisplay';
-  src: url('../fonts/playfairdisplay.ttf') format('truetype');
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat.ttf') format('truetype');
   font-display: swap;
 }
 
 :root {
-  --color-blue: #0a224a;
-  --color-grey: #7a7a7a;
-  --color-dark-grey: #b6b6b6;
-  --color-gainsboro: #d9d9d9;
-  --color-light-blue: #f7faff;
-  --color-white: #ffffff;
-  --color-hover: #061835;
-  --color-error: #e74a3b;
+  --color-genoa: #F3F3F3;
+  --color-active: rgba(188, 26, 26, 0.50);
+  --color-text: #2C2C2C;
+  --color-no-active: rgba(188, 26, 26, 0.20);
 
-  --primary-font: 'Roboto', sans-serif;
-  --secondary-font: 'PlayfairDisplay', sans-serif;
-}
+
+  --primary-font: 'Montserrat', sans-serif;
+  }
 
 body {
-  color: var(--blue-font, #0a224a);
+  color: var(--color-text, #2C2C2C);
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5; /* 150% */
