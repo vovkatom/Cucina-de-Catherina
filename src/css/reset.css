@@ -48,8 +48,8 @@ img {
 }
 
 .container {
-  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  /* animation: rubberBand; 
+  animation-duration: 2s; */
   min-width: 320px;
   max-width: 415px;
   margin-left: auto;
