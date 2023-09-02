@@ -1,13 +1,13 @@
 .hero {
   max-width: 415px;
   height: 2650px;
+  padding-bottom: 100px;
 }
 
 .hero-title {
   width: 182px;
   color: var(--Genoa, #f3f3f3);
 
-  font-family: Montserrat;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
@@ -20,7 +20,7 @@
   color: #fff;
 
   padding-top: 16px;
-  font-family: Montserrat;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -227,10 +227,6 @@
     padding: 26px 86px;
   }
 
-  .hero-ingridient {
-    /* width: 290px; */
-  }
-
   .hero-ingridient-title {
     font-size: 26px;
   }
@@ -287,8 +283,6 @@
 
 @media screen and (min-width: 1020px) {
   .hero {
-    
-    /* padding-top: 100px; */
     background-image: url(../images/hero/ketchup-tab.png);
     background-repeat: no-repeat;
     background-position: top +72px right;
@@ -301,51 +295,27 @@
 
   .hero-title {
     width: 388px;
-    color: var(--Genoa, #f3f3f3);
-    font-family: Montserrat;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
   }
 
   .hero-text {
     width: 447px;
-    color: var(--Genoa, #f3f3f3);
-
-    /* Subtitle 1 */
-    font-family: Montserrat;
     font-size: 36px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
     padding-bottom: 48px;
   }
 
   .hero-text-coma {
-    color: var(--Genoa, #f3f3f3);
-
-    /* Subtitle 1 */
-    font-family: Montserrat;
     font-size: 36px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
   }
 
   .hero-text-love {
-    color: rgba(188, 26, 26, 0.71);
-
-    /* Subtitle 2 */
-    font-family: Montserrat;
     font-size: 36px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
   }
 
   .hero-bord {
-    /* width: 0px; */
     height: 153px;
     stroke-width: 1px;
     stroke: var(--Genoa, #f3f3f3);
@@ -356,25 +326,18 @@
   }
 
   .hero-buttom {
-    color: var(--Genoa, #f3f3f3);
-
-    font-family: Montserrat;
+    
     font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: flex;
+    
     width: 302px;
     height: 77px;
     padding: 26px 16px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-shrink: 0;
   }
 
   .hero-ingridient {
-    /* width: 371px; */
     height: 78px;
     flex-shrink: 0;
     display: flex;
@@ -383,12 +346,6 @@
     padding-top: 48px;
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .hero-ingridient-title {
-  }
-
-  .hero-ingridient-text {
   }
 
   .hero-ingridient-bord {
@@ -400,7 +357,6 @@
 
   .social-list {
     gap: 40px;
-
     padding-top: 74px;
   }
 
@@ -488,11 +444,102 @@
     top: 670px; 
     right: 324px;
   }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    background-image: url(../images/hero/ketchup-tab.png);
+    background-position: top +72px right +100px;
+    height: 100%;
+    padding-bottom: 200px;
+  }
+
+  .social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: absolute;
+  right: 85px;
+  top: 216px;
+  }
   
-  
-  
-  
-  
-  
-  
+  .hero-img-line1 {
+    position: absolute;
+    top: 150px;
+    right: 260px;
+  }
+
+  .hero-elips-line1 {
+    position: absolute;
+    top: 150px;
+    right: 480px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line1 {
+    position: absolute; 
+    top: 130px; 
+    right: 336px;
+  }
+
+  .hero-img-line2 {
+    position: absolute;
+    top: 330px;
+    right: 240px;
+  }
+
+  .hero-elips-line2 {
+    position: absolute;
+    top: 330px;
+    right: 480px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line2 {
+    position: absolute; 
+    top: 310px; 
+    right: 360px;
+  }
+
+  .hero-img-line3 {
+    position: absolute;
+    top: 446px;
+    right: 300px;
+  }
+
+  .hero-elips-line3 {
+    position: absolute;
+    top: 514px;
+    right: 530px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line3 {
+    position: absolute; 
+    top: 500px; 
+    right: 424px;
+  }
+
+  .hero-img-line4 {
+    position: absolute;
+    top: 586px;
+    right: 300px;
+  }
+
+  .hero-elips-line4 {
+    position: absolute;
+    top: 686px;
+    right: 530px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .hero-text-line4 {
+    position: absolute; 
+    top: 670px; 
+    right: 424px;
+  }
 }
