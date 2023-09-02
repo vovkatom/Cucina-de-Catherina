@@ -14,17 +14,22 @@
 }
 
 :root {
-  --color-genoa: #F3F3F3;
-  --color-active: rgba(188, 26, 26, 0.50);
-  --color-text: #2C2C2C;
-  --color-no-active: rgba(188, 26, 26, 0.20);
-
+  --color-genoa: #f3f3f3;
+  --color-active: rgba(188, 26, 26, 0.5);
+  --color-text: #2c2c2c;
+  --color-no-active: rgba(188, 26, 26, 0.2);
 
   --primary-font: 'Montserrat', sans-serif;
-  }
+}
 
 body {
-  color: var(--color-text, #2C2C2C);
+  color: var(--color-genoa, #f3f3f3);
+  background: linear-gradient(
+    257deg,
+    rgba(111, 102, 102, 0.9) 26.96%,
+    rgba(16, 15, 15, 0.9) 79.08%,
+    rgba(16, 15, 15, 0.9) 79.08%
+  );
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5; /* 150% */

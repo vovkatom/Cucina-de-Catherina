@@ -1,0 +1,165 @@
+.hero {
+  /* max-width: 414px; */
+  /* height: 637px; */
+  /* flex-shrink: 0; */
+}
+.container {
+}
+.redline {
+}
+.hero-container {
+}
+.greenline {
+}
+.hero-title {
+  width: 182px;
+  color: var(--Genoa, #f3f3f3);
+
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero-text {
+  width: 200px;
+  color: #fff;
+
+  padding-top: 16px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 52px;
+}
+
+.hero-text-coma {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.16px;
+}
+
+.hero-text-love {
+  color: var(--Main-color-red, #bc1a1a);
+
+  /* Text S Bold */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-bord {
+  /* width: 0px; */
+  /* height: 66px; */
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: var(--Genoa, #f3f3f3);
+  padding-right: 8px;
+}
+
+.title-bord {
+  display: flex;
+  padding-top: 40px;
+}
+
+.social-svg-icon {
+  fill: #f3f3f3;
+}
+
+.vegetable {
+  width: 302px;
+  height: 177px;
+  /* transform: rotate(-8.757deg); */
+  flex-shrink: 0;
+  opacity: 0.2;
+  /* display: flex; */
+}
+
+.hero-img-ketchup {
+  position: absolute;
+  right: 15px;
+  top: 80px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.vegetable1 {
+  position: absolute;
+  right: 120px;
+  top: 304px;
+}
+
+.vegetable2 {
+  position: absolute;
+  right: 260px;
+  top: 282px;
+}
+
+.vegetable3 {
+  position: absolute;
+  right: 234px;
+  top: 382px;
+}
+
+.vegetable4 {
+  position: absolute;
+  left: 10px;
+  top: 352px;
+}
+
+.vegetable5 {
+  position: absolute;
+  left: 100px;
+  top: 270px;
+}
+
+.vegetable6 {
+  position: absolute;
+  left: 160px;
+  top: 190px;
+}
+
+.vegetable7 {
+  position: absolute;
+  left: 12px;
+  top: 308px;
+}
+
+.vegetable8 {
+  position: absolute;
+  left: 128px;
+  top: 294px;
+}
+
+.hero-buttom {
+  /* padding-top: ; */
+  color: var(--Genoa, #f3f3f3);
+
+  /* Btn M */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 384px;
+  height: 66px;
+  padding: 26px 116px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  /* background: rgba(188, 26, 26, 0.2); */
+  background-color: #BC1A1A33;
+  opacity: 1;
+}
