@@ -1,12 +1,12 @@
 $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
-		dots:true,
+		dots:false,
 		slidesToShow:2,
     slidesToScroll: 1,
 		autoplay:true,
-		speed:1000,
-		autoplaySpeed:1000,
+		speed:2000,
+		autoplaySpeed:2000,
     vertical: true,
     rows: 2,
     slidesPerRow: 2,
