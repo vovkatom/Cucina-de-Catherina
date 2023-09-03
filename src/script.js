@@ -1,12 +1,15 @@
 $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
-		dots:false,
+		dots:true,
 		slidesToShow:2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
 		autoplay:true,
-		speed:2000,
-		autoplaySpeed:800,
+		speed:1000,
+		autoplaySpeed:1000,
+    vertical: true,
+    rows: 2,
+    slidesPerRow: 2,
 		responsive:[
 			{
 				breakpoint: 768,

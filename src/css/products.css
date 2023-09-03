@@ -1,32 +1,17 @@
-/*Обнуление*/
-*,
-*:before,
-*:after {
-  /* padding: 0;
-  margin: 0;
-  border: 0; */
-  box-sizing: border-box;
-}
-/*Стили для демонстрации*/
-html,
-body {
-  height: 100%;
-  background-color: #333;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  color: #fff;
-  font-size: 25px;
-}
 .wrapper {
-  height: 100%;
-  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 767px) {
-  .wrapper {
-    padding: 50px 10px;
+.product.container {
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+@media (min-width: 415px) {
+  .product {
+    /* width: 100%; */
   }
 }
 
@@ -43,7 +28,8 @@ body {
 /* Лента слайдов */
 .slick-track {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  display: block;
   /* flex-direction: column; */
 }
 
@@ -84,12 +70,11 @@ body {
 /* Конкретный слайдер */
 .slider {
   position: relative;
-  padding: 0px 60px;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
   .slider {
-    padding: 0px 40px;
   }
 }
 
@@ -121,7 +106,6 @@ body {
 }
 .slider .slick-dots li {
   list-style: none;
-  margin: 0px 10px;
 }
 .slider .slick-dots button {
   font-size: 0;
@@ -137,16 +121,16 @@ body {
 }
 
 .slider__item {
-  padding: 0px 15px;
 }
 .slider__item img {
-  max-width: 100%;
 }
 .slider__item.slick-center {
 }
 
 .slider-img {
   border-radius: 50%;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .slider-title {
@@ -155,26 +139,23 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  /* align-items: center; */
-
-  /* gap: 56px; */
 }
 
 .slider-buttom {
-  color: var(--Genoa, #F3F3F3);
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-width: 108px;
-height: 29px;
-padding: 9px 57px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 8px;
-background: var(--Button-dark-red, rgba(188, 26, 26, 0.20));
+  color: var(--Genoa, #f3f3f3);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 108px;
+  height: 29px;
+  padding: 9px 57px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Button-dark-red, rgba(188, 26, 26, 0.2));
 }
