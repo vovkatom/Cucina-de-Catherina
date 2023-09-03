@@ -10,15 +10,18 @@ $(document).ready(function(){
     vertical: true,
     rows: 2,
     slidesPerRow: 2,
+		// mobileFirst: true,
+		
+		// adaptiveHeight:false,
 		responsive:[
 			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow:2
-				}
+				// breakpoint: 768,
+				// settings: {
+				// 	slidesToShow:2
+				// }
 			},
 			{
-				breakpoint: 550,
+				breakpoint: 1020,
 				settings: {
 					slidesToShow:1
 				}
