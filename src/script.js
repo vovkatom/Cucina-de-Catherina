@@ -3,8 +3,9 @@ $(document).ready(function(){
 		arrows:true,
 		dots:false,
 		slidesToShow:2,
+    slidesToScroll: 2,
 		autoplay:true,
-		speed:1000,
+		speed:2000,
 		autoplaySpeed:800,
 		responsive:[
 			{
