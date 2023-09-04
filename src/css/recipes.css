@@ -1,3 +1,8 @@
 .recipes {
   padding-top: 100px;
 }
+
+.recipes-video {
+  float: right;
+  padding-bottom: 72px;
+}
