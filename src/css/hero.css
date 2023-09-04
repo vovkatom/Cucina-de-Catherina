@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 52px;
+  /* padding-bottom: 52px; */
 }
 
 .hero-text-coma {
@@ -67,18 +67,12 @@
 }
 
 .social-svg-icon {
-  height: 24px;
-  width: 24px;
+  height: 16px;
+  width: 16px;
   fill: #f3f3f3;
 }
 
-.vegetable {
-  width: 302px;
-  height: 177px;
-  /* transform: rotate(-8.757deg); */
-  flex-shrink: 0;
-  opacity: 0.2;
-}
+
 
 .hero {
   background-image: url(../images/hero/ketchup-mob.png);
@@ -95,52 +89,61 @@
   padding-top: 24px;
 }
 
+.vegetable {
+  width: 302px;
+  opacity: 0.2;
+  height: 230px;
+  position: relative;
+  z-index: -30;
+}
+
 .vegetable1 {
   position: absolute;
-  right: 120px;
-  top: 304px;
+  right: 10px;
+  bottom: 90px;
+  
 }
 
 .vegetable2 {
   position: absolute;
-  right: 260px;
-  top: 282px;
+  left: 30px;
+  top: 56px;
 }
 
 .vegetable3 {
   position: absolute;
-  right: 234px;
-  top: 382px;
+  left: 122px;
+  bottom: 0;
 }
 
 .vegetable4 {
   position: absolute;
-  left: 10px;
-  top: 352px;
+  left: 0;
+  bottom: 0;
 }
 
 .vegetable5 {
   position: absolute;
-  left: 100px;
-  top: 270px;
+  left: 92px;
+  top: 46px;
 }
 
 .vegetable6 {
   position: absolute;
-  left: 160px;
-  top: 190px;
+  right: 0;
+  top: 0;
 }
 
 .vegetable7 {
   position: absolute;
-  left: 12px;
-  top: 308px;
+  left: 0;
+  top: 86px;
 }
 
 .vegetable8 {
   position: absolute;
-  left: 128px;
-  top: 294px;
+  left: 130px;
+  top: 110px;
 }
 
 .hero-buttom {
@@ -157,19 +160,17 @@
   padding: 26px 116px;
   justify-content: center;
   align-items: center;
-  /* gap: 10px; */
-  /* flex-shrink: 0; */
   border-radius: 16px;
   background-color: #bc1a1a33;
 }
 
 .hero-ingridient {
-  /* width: 384px; */
+  width: 380px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 16px;
+  padding-top: 20px;
 }
 
 .hero-ingridient-title {
@@ -195,11 +196,11 @@
 }
 
 .hero-ingridient-bord {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 8px;
+  padding-left: 8px;
   display: flex;
 
-  height: 88px;
+  height: 78px;
   stroke-width: 1px;
   stroke: var(--Genoa, #f3f3f3);
 }
@@ -209,6 +210,7 @@
 }
 
 @media screen and (max-width: 414px) {
+  
   .hero-img-ketchup {
     right: 0px;
   }
@@ -218,7 +220,6 @@
   }
 
   .hero-text {
-    width: 200px;
     font-size: 12px;
   }
 
@@ -255,10 +256,6 @@
     left: 80px;
   }
 
-  .vegetable6 {
-    display: none;
-  }
-
   .vegetable7 {
     top: 320px;
   }
@@ -266,31 +263,41 @@
   .vegetable8 {
     left: 120px;
   }
+
+  .hero-ingridient {
+    max-width: 290px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 415px) {
   .vegetable {
-    display: none;
-    position: absolute;
-    right: 120px;
-    top: 304px;
-  }
-
-  .hero-text {
-    padding-bottom: 228px;
-  }
+  /* width: 302px; */
+  /* opacity: 0.2; */
+  height: 230px;
+}
 }
 
 @media screen and (min-width: 1020px) {
+  .vegetable {
+    display: none;
+  }
+
+  .social-svg-icon {
+    height: 24px;
+    width: 24px;
+  }
+
+
   .hero {
     background-image: url(../images/hero/ketchup-tab.png);
     background-repeat: no-repeat;
-    background-position: top +72px right;
+    background-position: top +62px right +42px;
     height: 100%;
   }
 
   .hero {
-    max-width: 4000px;
+    max-width: 1020px;
   }
 
   .hero-title {
@@ -338,111 +345,126 @@
   }
 
   .hero-ingridient {
+    width: 362px;
     height: 78px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    justify-content: left;
-    padding-top: 48px;
-    padding-left: 0;
-    padding-right: 0;
+    justify-content: space-between;
+    padding-top: 94px;
   }
 
+  .hero-ingridient-text {
+  color: var(--Genoa, #f3f3f3);
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-wrap: nowrap;
+}
+
   .hero-ingridient-bord {
-    height: 78px;
+    height: 68px;
     flex-shrink: 0;
     stroke-width: 1px;
     stroke: var(--Genoa, #f3f3f3);
+    padding-left: 4px;
+    padding-right: 4px;
   }
 
   .social-list {
     gap: 40px;
-    padding-top: 74px;
+    padding-top: 112px;
   }
 
   .hero-list-line {
     display: flex;
-    text-align: center;
+  }
+
+  .hero {
+    position: relative;
   }
   
   .hero-img-line1 {
     position: absolute;
-    top: 150px;
-    right: 160px;
+    top: 50px;
+    right: 230px;
   }
 
   .hero-elips-line1 {
     position: absolute;
-    top: 150px;
-    right: 380px;
+    top: 48px;
+    right: 446px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line1 {
     position: absolute; 
-    top: 130px; 
-    right: 236px;
+    top: 30px; 
+    right: 304px;
   }
 
   .hero-img-line2 {
     position: absolute;
-    top: 330px;
-    right: 140px;
+    top: 216px;
+    right: 216px;
   }
 
   .hero-elips-line2 {
     position: absolute;
-    top: 330px;
-    right: 380px;
+    top: 214px;
+    right: 458px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line2 {
     position: absolute; 
-    top: 310px; 
-    right: 260px;
+    top: 196px; 
+    right: 336px;
   }
 
   .hero-img-line3 {
     position: absolute;
-    top: 446px;
-    right: 200px;
+    top: 346px;
+    right: 246px;
   }
 
   .hero-elips-line3 {
     position: absolute;
-    top: 514px;
-    right: 430px;
+    top: 414px;
+    right: 474px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line3 {
     position: absolute; 
-    top: 500px; 
-    right: 324px;
+    top: 398px; 
+    right: 368px;
   }
 
   .hero-img-line4 {
     position: absolute;
-    top: 586px;
-    right: 200px;
+    top: 502px;
+    right: 230px;
   }
 
   .hero-elips-line4 {
     position: absolute;
-    top: 686px;
-    right: 430px;
+    top: 602px;
+    right: 458px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line4 {
     position: absolute; 
-    top: 670px; 
-    right: 324px;
+    top: 586px; 
+    right: 346px;
   }
 }
 
