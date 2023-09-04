@@ -471,9 +471,14 @@
 @media screen and (min-width: 1280px) {
   .hero {
     background-image: url(../images/hero/ketchup-tab.png);
-    background-position: top +72px right +100px;
+    background-position: top +82px right +150px;
+    /* background-position: top +72px right; */
     height: 100%;
     padding-bottom: 200px;
+  }
+
+  .hero {
+    max-width: 1280px;
   }
 
   .social-list {
@@ -482,86 +487,86 @@
   gap: 32px;
   position: absolute;
   right: 85px;
-  top: 216px;
+  top: 120px;
   }
   
   .hero-img-line1 {
     position: absolute;
-    top: 150px;
-    right: 260px;
+    top: 64px;
+    right: 336px;
   }
 
   .hero-elips-line1 {
     position: absolute;
-    top: 150px;
-    right: 480px;
+    top: 62px;
+    right: 550px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line1 {
     position: absolute; 
-    top: 130px; 
-    right: 336px;
+    top: 44px; 
+    right: 410px;
   }
 
   .hero-img-line2 {
     position: absolute;
-    top: 330px;
-    right: 240px;
+    top: 228px;
+    right: 326px;
   }
 
   .hero-elips-line2 {
     position: absolute;
-    top: 330px;
-    right: 480px;
+    top: 226px;
+    right: 568px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line2 {
     position: absolute; 
-    top: 310px; 
-    right: 360px;
+    top: 208px; 
+    right: 444px;
   }
 
   .hero-img-line3 {
     position: absolute;
-    top: 446px;
-    right: 300px;
+    top: 358px;
+    right: 350px;
   }
 
   .hero-elips-line3 {
     position: absolute;
-    top: 514px;
-    right: 530px;
+    top: 426px;
+    right: 578px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line3 {
     position: absolute; 
-    top: 500px; 
-    right: 424px;
+    top: 410px; 
+    right: 474px;
   }
 
   .hero-img-line4 {
     position: absolute;
-    top: 586px;
-    right: 300px;
+    top: 510px;
+    right: 330px;
   }
 
   .hero-elips-line4 {
     position: absolute;
-    top: 686px;
-    right: 530px;
+    top: 612px;
+    right: 558px;
     width: 6px;
     height: 6px;
   }
 
   .hero-text-line4 {
     position: absolute; 
-    top: 670px; 
-    right: 424px;
+    top: 594px; 
+    right: 452px;
   }
 }
